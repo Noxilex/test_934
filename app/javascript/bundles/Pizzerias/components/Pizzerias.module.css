@@ -1,0 +1,39 @@
+.bright {
+    color: green;
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'RadioCanada';
+    src: url('/app/assets/fonts/Radio_Canada/RadioCanada-VariableFont_wdth\,wght.ttf') format('opentype');
+}
+html {
+    font-family: RadioCanada;
+    font-size: 11pt;
+    font-weight: small;
+}
+
+#tab {
+    display: flex;
+    flex-flow: column wrap;
+    p {
+        align-self: flex-end;
+        font-weight: bold;
+    }
+}
+
+.overCA {
+    font-weight: bold;
+    color: green;
+}
+.underCA {
+    font-weight: bold;
+    color: orange;
+}
+
+select {
+    margin-top: 8px;
+    border: 2px solid;
+    min-width: 130px;
+}
