@@ -20,6 +20,6 @@ describe('Pizzerias table', () => {
   })
 
   it('should have a mean yearly CA equal to the sum of all yearly CA divided by the number of pizzerias', () => {
-    
+        
   })
 });
