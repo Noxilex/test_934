@@ -8,6 +8,11 @@
       "./node_modules/shakapacker/package/babel/preset.js"
     ]
   },
+  "scripts": {
+    "start": "webpack serve --mode development --config ./config/webpack/development.js",
+    "build": "webpack --mode production --config ./config/webpack/production.js",
+    "test": "jest"
+  },
   "browserslist": [
     "defaults"
   ],
@@ -41,6 +46,11 @@
   },
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "react-refresh": "^0.14.2",
     "webpack-dev-server": "^4.15.2"
   }
